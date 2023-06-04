@@ -1,0 +1,3 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: Le répertoire intermédiaire (Debug\) contient des fichiers partagés provenant d'un autre projet (NetworkingBaseProject.vcxproj). Cela peut entraîner un comportement de nettoyage et de regénération incorrect.
+  SimpleServer.cpp
+  NetworkingBaseProject.vcxproj -> C:\Users\Marie\Documents\Dev\NetworkingBaseProject\SERVER\Debug\SimpleServer.exe

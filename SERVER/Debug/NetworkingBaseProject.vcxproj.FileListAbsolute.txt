@@ -1,0 +1,3 @@
+C:\Users\Marie\Documents\Dev\NetworkingBaseProject\Debug\NetworkingBaseProject.exe
+C:\Users\Marie\Documents\Dev\NetworkingBaseProject\Client\Debug\SimpleServer.exe
+C:\Users\Marie\Documents\Dev\NetworkingBaseProject\SERVER\Debug\SimpleServer.exe
