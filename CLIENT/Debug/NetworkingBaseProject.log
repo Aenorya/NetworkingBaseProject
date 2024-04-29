@@ -1,4 +1,9 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: Le répertoire intermédiaire (Debug\) contient des fichiers partagés provenant d'un autre projet (NetworkingBaseProject.vcxproj). Cela peut entraîner un comportement de nettoyage et de regénération incorrect.
-  SimpleClient.cpp
-C:\Users\Marie\Documents\Dev\NetworkingBaseProject\CLIENT\SimpleClient.cpp(37,16): warning C4018: '<' : incompatibilité signed/unsigned
-  NetworkingBaseProject.vcxproj -> C:\Users\Marie\Documents\Dev\NetworkingBaseProject\CLIENT\Debug\SimpleClient.exe
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (NetworkingBaseProject.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+SimpleClient.obj : error LNK2019: unresolved external symbol _InitWindow referenced in function _SDL_main
+SimpleClient.obj : error LNK2019: unresolved external symbol _WindowShouldClose referenced in function _SDL_main
+SimpleClient.obj : error LNK2019: unresolved external symbol _CloseWindow referenced in function _SDL_main
+SimpleClient.obj : error LNK2019: unresolved external symbol _ClearBackground referenced in function _SDL_main
+SimpleClient.obj : error LNK2019: unresolved external symbol _BeginDrawing referenced in function _SDL_main
+SimpleClient.obj : error LNK2019: unresolved external symbol _EndDrawing referenced in function _SDL_main
+SimpleClient.obj : error LNK2019: unresolved external symbol _SetTargetFPS referenced in function _SDL_main
+C:\Users\marie.legrand\Documents\Dev\Fork\NetworkingBaseProject\CLIENT\Debug\SimpleClient.exe : fatal error LNK1120: 7 unresolved externals
