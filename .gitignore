@@ -28,3 +28,5 @@
 *.exe
 *.out
 *.app
+CLIENT/.vs/SimpleClient/v17/Browse.VC.opendb
+SERVER/.vs/SimpleServer/v17/Browse.VC.opendb
